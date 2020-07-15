@@ -8,14 +8,12 @@
 
 import UIKit
 
-class FavoritesViewController: UIViewController {
+class FavoritesViewController: FlavorUIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func initNavigationBar() {
+        super.initNavigationBar()
         self.navigationItem.title = "Favorites"
-        self.view.backgroundColor = .systemBlue
     }
-    
 
     /*
     // MARK: - Navigation

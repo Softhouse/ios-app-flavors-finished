@@ -11,7 +11,15 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    static var flavor: FlavorTarger {
+        #if BATMAN
+        return .batman
+        #elseif SUPERMAN
+        return .superman
+        #else
+        fatalError("Target flag incorrectly specified")
+        #endif
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

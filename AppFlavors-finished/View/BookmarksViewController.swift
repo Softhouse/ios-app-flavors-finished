@@ -8,14 +8,16 @@
 
 import UIKit
 
-class BookmarksViewController: UIViewController {
+class BookmarksViewController: FlavorUIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Bookmarks"
-        self.view.backgroundColor = .systemGreen
     }
     
+    override func initNavigationBar() {
+        super.initNavigationBar()
+        self.navigationItem.title = "Bookmarks"
+    }
 
     /*
     // MARK: - Navigation

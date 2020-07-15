@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A10541A24BEFD8B0056F4E8 /* FlavorTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A10541924BEFD8B0056F4E8 /* FlavorTarget.swift */; };
+		1A10541B24BEFD8B0056F4E8 /* FlavorTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A10541924BEFD8B0056F4E8 /* FlavorTarget.swift */; };
+		1A10541D24BF2B6E0056F4E8 /* FlavorUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A10541C24BF2B6E0056F4E8 /* FlavorUIViewController.swift */; };
+		1A10541E24BF2B6E0056F4E8 /* FlavorUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A10541C24BF2B6E0056F4E8 /* FlavorUIViewController.swift */; };
 		1A87E45724B8986900FDC316 /* Batman-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A87E45524B8967800FDC316 /* Batman-Info.plist */; };
 		1A87E45824B8986C00FDC316 /* Superman-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB749F24B895B500F79E93 /* Superman-Info.plist */; };
+		1A95CCFF24BC58BE0021F6E7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A95CCFE24BC58BE0021F6E7 /* UIColor+Extension.swift */; };
+		1A95CD0024BC58BE0021F6E7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A95CCFE24BC58BE0021F6E7 /* UIColor+Extension.swift */; };
+		1AB33CF224BEB978001B95E2 /* Batman.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A95CCFA24BC537B0021F6E7 /* Batman.xcassets */; };
+		1AB33CF424BEBE4A001B95E2 /* FlavorColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB33CF324BEBE4A001B95E2 /* FlavorColor.swift */; };
+		1AB33CF724BEBF2A001B95E2 /* Superman.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A95CCF824BC508B0021F6E7 /* Superman.xcassets */; };
+		1AB33CF824BEC223001B95E2 /* FlavorColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB33CF324BEBE4A001B95E2 /* FlavorColor.swift */; };
 		1ACB749224B895B500F79E93 /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA813C24B870F5001213D2 /* BookmarksViewController.swift */; };
 		1ACB749324B895B500F79E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA80F524B854A4001213D2 /* AppDelegate.swift */; };
 		1ACB749424B895B500F79E93 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA813A24B870DB001213D2 /* FavoritesViewController.swift */; };
@@ -26,7 +36,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A10541924BEFD8B0056F4E8 /* FlavorTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorTarget.swift; sourceTree = "<group>"; };
+		1A10541C24BF2B6E0056F4E8 /* FlavorUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorUIViewController.swift; sourceTree = "<group>"; };
 		1A87E45524B8967800FDC316 /* Batman-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Batman-Info.plist"; sourceTree = "<group>"; };
+		1A95CCF824BC508B0021F6E7 /* Superman.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Superman.xcassets; sourceTree = "<group>"; };
+		1A95CCFA24BC537B0021F6E7 /* Batman.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Batman.xcassets; sourceTree = "<group>"; };
+		1A95CCFE24BC58BE0021F6E7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		1AB33CF324BEBE4A001B95E2 /* FlavorColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorColor.swift; sourceTree = "<group>"; };
 		1ACB749E24B895B500F79E93 /* Superman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Superman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACB749F24B895B500F79E93 /* Superman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Superman-Info.plist"; path = "/Users/carlos.martin/Development/iOS/AppFlavors/ios-app-flavors-finished/AppFlavors-finished/SupportingFiles/Superman-Info.plist"; sourceTree = "<absolute>"; };
 		1ADA80F224B854A4001213D2 /* Batman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Batman.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A95CD0124BC62100021F6E7 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				1A95CCF824BC508B0021F6E7 /* Superman.xcassets */,
+				1A95CCFA24BC537B0021F6E7 /* Batman.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		1ADA80E924B854A4001213D2 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +136,8 @@
 		1ADA811C24B8601F001213D2 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				1A10541924BEFD8B0056F4E8 /* FlavorTarget.swift */,
+				1AB33CF324BEBE4A001B95E2 /* FlavorColor.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -118,6 +145,7 @@
 		1ADA811D24B8601F001213D2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1A95CCFE24BC58BE0021F6E7 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -125,6 +153,7 @@
 		1ADA811E24B8601F001213D2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1A10541C24BF2B6E0056F4E8 /* FlavorUIViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -148,6 +177,7 @@
 		1ADA813024B863B0001213D2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1A95CD0124BC62100021F6E7 /* Colors */,
 				1ADA80FE24B854A4001213D2 /* Assets.xcassets */,
 				1ADA810024B854A4001213D2 /* LaunchScreen.storyboard */,
 			);
@@ -242,6 +272,7 @@
 				1A87E45824B8986C00FDC316 /* Superman-Info.plist in Resources */,
 				1ACB749924B895B500F79E93 /* Assets.xcassets in Resources */,
 				1ACB749A24B895B500F79E93 /* Main.storyboard in Resources */,
+				1AB33CF724BEBF2A001B95E2 /* Superman.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB33CF224BEB978001B95E2 /* Batman.xcassets in Resources */,
 				1ADA810224B854A4001213D2 /* LaunchScreen.storyboard in Resources */,
 				1ADA80FF24B854A4001213D2 /* Assets.xcassets in Resources */,
 				1ADA80FD24B854A4001213D2 /* Main.storyboard in Resources */,
@@ -265,8 +297,12 @@
 			files = (
 				1ACB749224B895B500F79E93 /* BookmarksViewController.swift in Sources */,
 				1ACB749324B895B500F79E93 /* AppDelegate.swift in Sources */,
+				1AB33CF824BEC223001B95E2 /* FlavorColor.swift in Sources */,
+				1A10541B24BEFD8B0056F4E8 /* FlavorTarget.swift in Sources */,
 				1ACB749424B895B500F79E93 /* FavoritesViewController.swift in Sources */,
 				1ACB749524B895B500F79E93 /* SceneDelegate.swift in Sources */,
+				1A10541E24BF2B6E0056F4E8 /* FlavorUIViewController.swift in Sources */,
+				1A95CD0024BC58BE0021F6E7 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB33CF424BEBE4A001B95E2 /* FlavorColor.swift in Sources */,
 				1ADA813D24B870F5001213D2 /* BookmarksViewController.swift in Sources */,
 				1ADA80F624B854A4001213D2 /* AppDelegate.swift in Sources */,
+				1A10541A24BEFD8B0056F4E8 /* FlavorTarget.swift in Sources */,
 				1ADA813B24B870DB001213D2 /* FavoritesViewController.swift in Sources */,
 				1ADA80F824B854A4001213D2 /* SceneDelegate.swift in Sources */,
+				1A10541D24BF2B6E0056F4E8 /* FlavorUIViewController.swift in Sources */,
+				1A95CCFF24BC58BE0021F6E7 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,12 +348,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-superman";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8ZP59GK7M;
 				INFOPLIST_FILE = "AppFlavors-finished/SupportingFiles/Superman-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -DSUPERMAN";
 				PRODUCT_BUNDLE_IDENTIFIER = se.softhouse.superman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -326,12 +370,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-superman";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8ZP59GK7M;
 				INFOPLIST_FILE = "AppFlavors-finished/SupportingFiles/Superman-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -DSUPERMAN";
 				PRODUCT_BUNDLE_IDENTIFIER = se.softhouse.superman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -396,6 +444,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -449,6 +498,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -466,6 +516,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -DBATMAN";
 				PRODUCT_BUNDLE_IDENTIFIER = se.softhouse.batman;
 				PRODUCT_NAME = Batman;
 				SWIFT_VERSION = 5.0;
@@ -486,6 +538,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -DBATMAN";
 				PRODUCT_BUNDLE_IDENTIFIER = se.softhouse.batman;
 				PRODUCT_NAME = Batman;
 				SWIFT_VERSION = 5.0;
