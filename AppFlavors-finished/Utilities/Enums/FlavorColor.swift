@@ -1,6 +1,6 @@
 //
-//  ColorName+Batman.swift
-//  Batman
+//  FlavorColor.swift
+//  AppFlavors-finished
 //
 //  Created by Carlos Martin on 2020-07-15.
 //  Copyright © 2020 Softhouse Nordic, AB. All rights reserved.
