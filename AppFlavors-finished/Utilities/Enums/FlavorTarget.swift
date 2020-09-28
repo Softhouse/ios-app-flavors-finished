@@ -8,11 +8,7 @@
 
 import Foundation
 
-enum FlavorTarger: String {
-    case superman   = "SUPERMAN"
-    case batman     = "BATMAN"
-    
-    var name: String {
-        return self.rawValue
-    }
+enum FlavorTarget: String {
+    case superman
+    case batman
 }

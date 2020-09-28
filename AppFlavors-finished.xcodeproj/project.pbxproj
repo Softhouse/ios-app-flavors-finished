@@ -11,8 +11,6 @@
 		1A10541B24BEFD8B0056F4E8 /* FlavorTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A10541924BEFD8B0056F4E8 /* FlavorTarget.swift */; };
 		1A10541D24BF2B6E0056F4E8 /* FlavorUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A10541C24BF2B6E0056F4E8 /* FlavorUIViewController.swift */; };
 		1A10541E24BF2B6E0056F4E8 /* FlavorUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A10541C24BF2B6E0056F4E8 /* FlavorUIViewController.swift */; };
-		1A87E45724B8986900FDC316 /* Batman-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A87E45524B8967800FDC316 /* Batman-Info.plist */; };
-		1A87E45824B8986C00FDC316 /* Superman-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB749F24B895B500F79E93 /* Superman-Info.plist */; };
 		1A95CCFF24BC58BE0021F6E7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A95CCFE24BC58BE0021F6E7 /* UIColor+Extension.swift */; };
 		1A95CD0024BC58BE0021F6E7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A95CCFE24BC58BE0021F6E7 /* UIColor+Extension.swift */; };
 		1AB33CF224BEB978001B95E2 /* Batman.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A95CCFA24BC537B0021F6E7 /* Batman.xcassets */; };
@@ -33,6 +31,8 @@
 		1ADA810224B854A4001213D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA810024B854A4001213D2 /* LaunchScreen.storyboard */; };
 		1ADA813B24B870DB001213D2 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA813A24B870DB001213D2 /* FavoritesViewController.swift */; };
 		1ADA813D24B870F5001213D2 /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA813C24B870F5001213D2 /* BookmarksViewController.swift */; };
+		1AEF06C12521C14F00764935 /* Batman-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A87E45524B8967800FDC316 /* Batman-Info.plist */; };
+		1AEF06C42521C15300764935 /* Superman-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB749F24B895B500F79E93 /* Superman-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -236,7 +236,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Softhouse Nordic, AB";
 				TargetAttributes = {
 					1ADA80F124B854A4001213D2 = {
@@ -269,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACB749824B895B500F79E93 /* LaunchScreen.storyboard in Resources */,
-				1A87E45824B8986C00FDC316 /* Superman-Info.plist in Resources */,
+				1AEF06C42521C15300764935 /* Superman-Info.plist in Resources */,
 				1ACB749924B895B500F79E93 /* Assets.xcassets in Resources */,
 				1ACB749A24B895B500F79E93 /* Main.storyboard in Resources */,
 				1AB33CF724BEBF2A001B95E2 /* Superman.xcassets in Resources */,
@@ -283,8 +283,8 @@
 				1AB33CF224BEB978001B95E2 /* Batman.xcassets in Resources */,
 				1ADA810224B854A4001213D2 /* LaunchScreen.storyboard in Resources */,
 				1ADA80FF24B854A4001213D2 /* Assets.xcassets in Resources */,
+				1AEF06C12521C14F00764935 /* Batman-Info.plist in Resources */,
 				1ADA80FD24B854A4001213D2 /* Main.storyboard in Resources */,
-				1A87E45724B8986900FDC316 /* Batman-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +413,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -474,6 +475,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

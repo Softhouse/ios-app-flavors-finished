@@ -10,10 +10,6 @@ import UIKit
 
 class BookmarksViewController: FlavorUIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
     override func initNavigationBar() {
         super.initNavigationBar()
         self.navigationItem.title = "Bookmarks"

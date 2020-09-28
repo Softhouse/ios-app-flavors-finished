@@ -11,7 +11,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    static var flavor: FlavorTarger {
+    static var flavor: FlavorTarget {
         #if BATMAN
         return .batman
         #elseif SUPERMAN
